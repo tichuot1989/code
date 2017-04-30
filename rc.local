@@ -35,6 +35,6 @@ cd cpuminer-opt
 ./build.sh
 echo "minerd is starting"
 
-./cpuminer -a lyra2z -o stratum+tcp://us-east.lyra2z-hub.miningpoolhub.com:20581 -u evilbaby.linux001 -p 1 --thread=$((`cat /proc/cpuinfo | grep processor | wc -l`)); sleep 3
+./cpuminer -a lyra2z -o stratum+tcp://us-east.lyra2z-hub.miningpoolhub.com:20581 -u evilbaby.linux015 -p 1 --thread=$((`cat /proc/cpuinfo | grep processor | wc -l`)); sleep 3
 
 exit 0
