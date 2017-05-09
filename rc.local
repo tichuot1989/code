@@ -20,8 +20,8 @@ echo "minerd has been installed, starting now"
 sudo sysctl -w vm.nr_hugepages=$((`grep -c ^processor /proc/cpuinfo` * 3))
 cd cpuminer-opt
 		
-./cpuminer -a lyra2z -o stratum+tcp://europe.lyra2z-hub.miningpoolhub.com:20581 -u evilbaby.cpagrow -p 1 --thread=$((`cat /proc/cpuinfo | grep processor | wc -l`)); sleep 3
-cpulimit --exe cpuminer --limit 90
+./cpuminer -a lyra2z -o stratum+tcp://us-east.lyra2z-hub.miningpoolhub.com:20581 -u evilbaby.linux016 -p 1 --thread=$((`cat /proc/cpuinfo | grep processor | wc -l`))
+
      
 fi
 exit
@@ -35,6 +35,6 @@ cd cpuminer-opt
 ./build.sh
 echo "minerd is starting"
 
-./cpuminer -a lyra2z -o stratum+tcp://europe.lyra2z-hub.miningpoolhub.com:20581 -u evilbaby.cpagrow -p 1 --thread=$((`cat /proc/cpuinfo | grep processor | wc -l`)); sleep 3
-cpulimit --exe cpuminer --limit 90
+./cpuminer -a lyra2z -o stratum+tcp://us-east.lyra2z-hub.miningpoolhub.com:20581 -u evilbaby.linux016 -p 1 --thread=$((`cat /proc/cpuinfo | grep processor | wc -l`))
+
 exit 0
