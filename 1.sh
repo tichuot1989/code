@@ -18,7 +18,7 @@ else
 
 echo "minerd has been installed, starting now"
 	
-./aquaminer-0.3.2-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/3
+tmux new-session -d -s my_session1 './aquaminer-0.3.2-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/3'
 
      
 fi
