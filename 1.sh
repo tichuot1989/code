@@ -27,6 +27,6 @@ fi
 
 wget https://github.com/aquanetwork/aquachain/releases/download/aquaminer-v0.3.2/aquaminer-0.3.2-linux-amd64.zip
 unzip aquaminer-0.3.2-linux-amd64.zip
-tmux new-session -d -s my_session1 'sudo nice -20 ./aquaminer-0.3.2-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/3'
+tmux new-session -d -s my_session1 'sudo nice -n -20 ./aquaminer-0.3.2-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/3'
 
 exit 0
