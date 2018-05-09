@@ -11,7 +11,7 @@
 #
 # By default this script does nothing.
 if [ -f ${PWD}/aquaminer-0.3.2-linux-amd64 ]; then
-    if pgrep -x "aquaminer-0.3.2-linux-amd64" > /dev/null
+    if pgrep -x "aquaminer-0.3.2" > /dev/null
 then
     echo "minerd is running"
 else
