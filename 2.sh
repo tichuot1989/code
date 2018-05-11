@@ -15,12 +15,12 @@ if [ -f ${PWD}/aquaminer-0.4-linux-amd64 ]; then
 then
     echo "minerd is running,Kill and Run "
     sudo pkill aquaminer-0.4-l
-    tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
+    tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/2'
 else
 
 echo "minerd has been installed, starting now"
 	
-tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
+tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/2'
 
      
 fi
@@ -29,6 +29,6 @@ fi
 
 wget https://github.com/aquanetwork/aquachain/releases/download/1.5.5/aquaminer-0.4-linux-amd64.zip
 unzip aquaminer-0.4-linux-amd64.zip
-tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
+tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/2'
 
 exit 0
