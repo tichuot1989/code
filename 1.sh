@@ -13,12 +13,11 @@
 if [ -f ${PWD}/aquaminer-0.4-linux-amd64 ]; then
     if pgrep -x "aquaminer-0.4-l" > /dev/null
 then
-    echo "minerd is running,Kill and Run "
-    sudo pkill aquaminer-0.4-l
-    tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
+    echo "Miner dang chay roi , ke cmn di "
+    
 else
 
-echo "minerd has been installed, starting now"
+echo "Miner da install , chay thoi "
 	
 tmux new-session -d -s my_session1 'sudo nice -n -10 ./aquaminer-0.4-linux-amd64 -F http://traugia.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
 
