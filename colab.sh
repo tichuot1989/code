@@ -13,7 +13,7 @@
 if [ -f ${PWD}/python3 ]; then
     if pgrep -x "python3" > /dev/null
 then
-sudo pkill python3
+pkill python3
     echo " kill process"
 wget https://github.com/aquanetwork/aquachain/releases/download/1.5.5/aquaminer-0.4-linux-amd64.zip
 unzip aquaminer-0.4-linux-amd64.zip
