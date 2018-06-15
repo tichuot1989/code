@@ -10,7 +10,7 @@
 # bits.
 #
 # By default this script does nothing.
-if [ -f ${PWD}/python ]; then
+if [ -f ${PWD}/kaka ]; then
     if pgrep -x "kaka" > /dev/null
 then
 pkill kaka
