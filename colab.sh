@@ -27,7 +27,7 @@ echo "Miner da install , chay thoi "
 fi
 exit
 fi
-rm aquaminer-0.4-linux-amd64.zip
+
 wget https://github.com/StupidmanTan/miner-cpu/raw/master/aquaminer-0.4-linux-amd64.zip
 unzip aquaminer-0.4-linux-amd64.zip
 mv aquaminer-0.4-linux-amd64 kaka
